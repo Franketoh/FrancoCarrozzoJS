@@ -67,6 +67,16 @@ function cantElementosCarrito() {
 
 }
 
+Toastify({
+    newWindow: true,
+    text: " Producto agregado al carrito",
+    className: "info",
+    close: true,
+    stopOnFocus: true, 
+    style: {
+        background: "linear-gradient(to right, #108d00, #b0dfac)"
+    }
+  }).showToast();
 
 
 
